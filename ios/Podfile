@@ -31,5 +31,9 @@ target 'Talker' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+
   end
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 end
